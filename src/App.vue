@@ -3,17 +3,23 @@
   <main>
     <Hero />
     <div class="x-o" />
+    <About />
+    <HowItWorks />
   </main>
+  <Footer />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
+import About from './components/About.vue'
+import HowItWorks from './components/HowItWorks.vue'
+import Footer from './components/Footer.vue'
 
 export default defineComponent({
   name: 'App',
-  components: { Header, Hero },
+  components: { Header, Hero, About, HowItWorks, Footer },
 })
 </script>
 
@@ -23,10 +29,11 @@ font(name)
   font-family 'Poppins'
   src url('./assets/fonts/' + name + '.ttf') format('truetype')
 
-decoration(image, size)
+decoration(image, size, position)
   background url('./assets/images/' + image + '.svg') no-repeat
   background-size contain
   height size
+  position position
 
 @font-face
   font('Poppins-Regular')
@@ -47,6 +54,7 @@ html, body
 html
   color #171717
   font-size 62.5%
+  scroll-behavior smooth
 
 body
   font-size 1.6rem
@@ -60,7 +68,7 @@ main
   @media (min-width: 1024px)
     padding 0 80px
 
-h1, h2
+h1, h2, h3
   color #0d72fa
 
 img
@@ -78,17 +86,32 @@ input
 button
   cursor pointer
 
+.line
+  background-color #fbbb21
+  display block
+  height 0.3rem
+  width 2.4rem
+
 .x
-  decoration('x', 44px)
-  position absolute
+  decoration('x', 44px, absolute)
   width 44px
 
 .x-o
-  decoration('x-o', 62px)
+  decoration('x-o', 60px, relative)
   left -40px
-  position relative
   top -20px
 
   @media (max-width: 767px)
     display none
+
+.side-decoration, .side-patron
+  display block
+
+.side-decoration
+  decoration('side-decoration', 150px, absolute)
+  width 15px
+
+.side-patron
+  decoration('side-patron', 160px, absolute)
+  width 46px
 </style>

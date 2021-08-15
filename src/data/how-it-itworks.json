@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Find Your Product",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+    "image": "1.png"
+  },
+  {
+    "id": 2,
+    "title": "Order Your Item",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+    "image": "2.png"
+  },
+  {
+    "id": 3,
+    "title": "Buyer Receives Order",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+    "image": "3.png"
+  },
+  {
+    "id": 4,
+    "title": "Buy Your Product",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+    "image": "4.png"
+  },
+  {
+    "id": 5,
+    "title": "Receive Your Product",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+    "image": "5.png"
+  }
+]

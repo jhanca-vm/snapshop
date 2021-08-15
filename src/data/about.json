@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Mission",
+    "image": "mission.svg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  {
+    "id": 2,
+    "title": "Vision",
+    "image": "vision.svg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  {
+    "id": 3,
+    "title": "Values",
+    "image": "values.svg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  }
+]

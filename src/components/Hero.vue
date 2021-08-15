@@ -43,9 +43,9 @@ h1
     width 29rem
 
   @media (min-width: 1024px)
-    font-size 4.2rem
+    font-size 4.4rem
     line-height 1.25
-    width 38rem
+    width 40rem
 
   @media (min-width: 540px) and (max-width: 767px)
     width 32rem
